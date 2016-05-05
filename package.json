@@ -17,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/thiennq/slack-trello/issues"
   },
+  "env": {
+    "TRELLO_KEY" : {
+      "description": "trello key",
+      "required": true
+    },
+    "TRELLO_TOKEN": {
+      "description": "trello token",
+      "required": true
+    },
+    "TRELLO_ORG": {
+      "description": "trello organization",
+      "required": false
+    }
+  },
   "homepage": "https://github.com/thiennq/slack-trello#readme"
 }
