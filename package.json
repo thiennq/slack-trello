@@ -1,0 +1,21 @@
+{
+  "name": "slack-trello",
+  "version": "1.0.0",
+  "description": "We love slack, and we love trello too...",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiennq/slack-trello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiennq/slack-trello/issues"
+  },
+  "homepage": "https://github.com/thiennq/slack-trello#readme"
+}
