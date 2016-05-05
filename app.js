@@ -97,6 +97,7 @@ app.post('/*', function(req, res, next) {
   user_name = req.body.user_name;
 
   var command = words.shift();
+  words.unshift(user_name);
   if (typeof commandHash[command] === "function") {
     var fn = commandHash[command];
     words[fn.length - 1] = function(text) {
