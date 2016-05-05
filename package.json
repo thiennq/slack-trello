@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "We love slack, and we love trello too...",
   "main": "app.js",
-  "dependencies": {},
+  "engines": {
+    "node": "6.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "node-trello": "^1.1.2"
+  },
   "devDependencies": {},
   "scripts": {
     "start": "node app.js"
@@ -18,7 +25,7 @@
     "url": "https://github.com/thiennq/slack-trello/issues"
   },
   "env": {
-    "TRELLO_KEY" : {
+    "TRELLO_KEY": {
       "description": "trello key",
       "required": true
     },
