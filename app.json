@@ -1,0 +1,20 @@
+{
+  "name": "slack-trello",
+  "description": "We love slack, and we love Trello too...",
+  "repository": "https://github.com/thiennq/slack-trello",
+  "keywords": ["slack", "trello", "javascript", "heroku"],
+  "env": {
+    "TRELLO_KEY" : {
+      "description": "trello key",
+      "required": true
+    },
+    "TRELLO_TOKEN": {
+      "description": "trello token",
+      "required": true
+    },
+    "TRELLO_ORG": {
+      "description": "trello organization",
+      "required": false
+    }
+  }
+}
